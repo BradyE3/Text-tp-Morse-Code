@@ -11,7 +11,7 @@ def aplh_to_morse(user_txt):
     try:
         for letter in user_txt:
             if letter == ' ':
-                coded_msg += '/ '
+                coded_msg += '/'
             else:
                 coded_msg += morse_dict[letter] + ' '
 
@@ -23,11 +23,3 @@ def aplh_to_morse(user_txt):
 
 
 aplh_to_morse(user_input)
-
-
-
-
-
-
-
-
